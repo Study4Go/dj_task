@@ -1,0 +1,16 @@
+# 业务日志
+busi_log_path = "./busi_dj_task.log"
+# 访问日志
+access_log_path = "./acc_dj_task.log"
+
+# 启动配置
+[server]
+  ip = "127.0.0.1"
+  port = 40160
+
+# redis配置
+[redis]
+  address = "127.0.0.1:6379"
+  MaxIdle = 8
+  MaxActive = 10
+  IdleTimeout = 240

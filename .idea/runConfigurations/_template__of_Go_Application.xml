@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="dj_task" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-i" />
+    <parameters value="-config=./config_dev.toml" />
+    <kind value="FILE" />
+    <filePath value="$PROJECT_DIR$" />
+    <directory value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
